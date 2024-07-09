@@ -1,0 +1,62 @@
+body {
+    background-color: #526d6c;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid #0f0f0f;
+    padding-right: 2em;
+    margin: 1em;
+    border-radius: 1em;
+    background-image: url(public\background.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.specials {
+    background-color: #D20062;
+    padding: 0.3em;
+    margin: 0.5em;
+    border-radius: 1em;
+    flex: 1;
+
+}
+
+.medium {
+    background-color: #F4CE14;
+    border: 1px solid #0f0f0f;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    flex: 1;
+}
+
+.large {
+    background-color: #d35705;
+    border: 1px solid #0f0f0f;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    flex: 1;
+}
+
+.contact {
+    background-color: #e8ff66;
+    border: 1px solid #0f0f0f;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+.center {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+@media(min-width:960px) {
+    .Lucky {
+        display: flex;
+        padding-right: 2em;
+    }
+}
